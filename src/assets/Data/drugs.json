@@ -1,0 +1,1589 @@
+{
+  "drugs": [
+    {
+      "drugId": 1,
+      "drugName": "Abilify",
+      "description": "Abilify is used to treat the symptoms of psychotic conditions such as schizophrenia and bipolar I disorder (manic depression)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "drugId": 2,
+      "drugName": "Aspirin",
+      "description": "Aspirin is a salicylate (sa-LIS-il-ate). It works by reducing substances in the body that cause pain, fever, and inflammation",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "drugId": 3,
+      "drugName": "Ativan",
+      "description": "Ativan is used to treat anxiety disorders",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 4,
+      "drugName": "Apixaban",
+      "description": "Apixaban is used to lower the risk of stroke caused by a blood clot in people with a heart rhythm disorder called atrial fibrillation",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "drugId": 5,
+      "drugName": "Belbuca",
+      "description": "Belbuca buccal films are for around-the-clock treatment of moderate to severe chronic pain that is not controlled by other medicines",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 360
+        }
+      ]
+    },
+    {
+      "drugId": 6,
+      "drugName": "Bentyl",
+      "description": "Bentyl relieves spasms of the muscles in the stomach and intestines",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 350
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 7,
+      "drugName": "Benadryl",
+      "description": "Benadryl is used to treat sneezing, runny nose, watery eyes, hives, skin rash, itching, and other cold or allergy symptoms",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 240
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "drugId": 8,
+      "drugName": "Biotin",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "drugId": 9,
+      "drugName": "Carafate",
+      "description": "Carafate is used to treat an active duodenal ulcer. Sucralfate can heal an active ulcer, but it will not prevent future ulcers from occurring",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "drugId": 10,
+      "drugName": "Claritin",
+      "description": "Claritin is used to treat sneezing, runny nose, watery eyes, hives, skin rash, itching, and other cold or allergy symptoms",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "drugId": 11,
+      "drugName": "Celexa",
+      "description": "Celexa is used to treat depression",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 12,
+      "drugName": "Coreg",
+      "description": "Coreg is used to treat heart failure and hypertension (high blood pressure)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 13,
+      "drugName": "Dexilant",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 360
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 560
+        }
+      ]
+    },
+    {
+      "drugId": 14,
+      "drugName": "Dulera",
+      "description": "Dulera is a combination medicine used as a maintenance treatment for asthma in adults and children who are at least 12 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "drugId": 15,
+      "drugName": "digoxin",
+      "description": "Digoxin is used to treat heart failure",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 180
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 16,
+      "drugName": "Donepezil",
+      "description": "Donepezil is used to help improve mental function in people with Alzheimer's disease",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 17,
+      "drugName": "Effient",
+      "description": "Effient is used to prevent blood clots in people with acute coronary syndrome who are undergoing a procedure after a recent heart attack",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "drugId": 18,
+      "drugName": "Eliquis",
+      "description": "Eliquis is used to lower the risk of stroke or a blood clot in people with a heart rhythm disorder called atrial fibrillation",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 370
+        }
+      ]
+    },
+    {
+      "drugId": 19,
+      "drugName": "Estrace",
+      "description": "Estrace is sometimes used as part of cancer treatment in women and men",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 420
+        }
+      ]
+    },
+    {
+      "drugId": 20,
+      "drugName": "Evista",
+      "description": "Evista (raloxifene) affects the cycle of bone formation and breakdown in the body, and reduces loss of bone tissue",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 230
+        }
+      ]
+    },
+    {
+      "drugId": 21,
+      "drugName": "Flexeril",
+      "description": "Flexeril is used together with rest and physical therapy to treat skeletal muscle conditions such as pain, injury, or spasms",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 22,
+      "drugName": "Forteo",
+      "description": "Forteo is used to treat osteoporosis caused by menopause, steroid use, or gonadal failure",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 23,
+      "drugName": "Flovent",
+      "description": "Flovent is used to prevent asthma attacks. This medicine will not treat an asthma attack that has already begun",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 24,
+      "drugName": "Focalin",
+      "description": "Focalin is used to treat attention deficit hyperactivity disorder (ADHD)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 440
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 700
+        }
+      ]
+    },
+    {
+      "drugId": 25,
+      "drugName": "Gaviscon",
+      "description": "Gaviscon is used to treat heartburn and upset stomach",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 700
+        }
+      ]
+    },
+    {
+      "drugId": 26,
+      "drugName": "Garamycin",
+      "description": "Garamycin is used to treat severe or serious bacterial infections",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "drugId": 27,
+      "drugName": "Glumetza",
+      "description": "Glumetza is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 28,
+      "drugName": "Glucotrol",
+      "description": "Glucotrol (glipizide) is an oral diabetes medicine that helps control blood sugar levels by helping your pancreas produce insulin",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "drugId": 29,
+      "drugName": "Halcion",
+      "description": "Halcion is used to treat insomnia (trouble falling or staying asleep)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 420
+        }
+      ]
+    },
+    {
+      "drugId": 30,
+      "drugName": "Hiprex",
+      "description": "Hiprex is used to treat or prevent recurring bladder infection in adults and children who are at least 12 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 370
+        }
+      ]
+    },
+    {
+      "drugId": 31,
+      "drugName": "Horizant",
+      "description": "Horizant is used in adults to treat nerve pain (postherpetic neuralgia) caused by herpes virus or shingles (herpes zoster)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 32,
+      "drugName": "Hydrea",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "drugId": 33,
+      "drugName": "Imdur",
+      "description": "Imdur is an extended release tablet used to prevent angina attacks (chest pain)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 550
+        }
+      ]
+    },
+    {
+      "drugId": 34,
+      "drugName": "Insulin",
+      "description": "Regular insulin is used to improve blood sugar control in adults and children with diabetes mellitus",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 500
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "drugId": 35,
+      "drugName": "Invega",
+      "description": "Invega is used to treat schizophrenia in adults and teenagers who are at least 12 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 600
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 800
+        }
+      ]
+    },
+    {
+      "drugId": 36,
+      "drugName": "Irbesartan?",
+      "description": "Irbesartan is used to treat high blood pressure (hypertension)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 500
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 37,
+      "drugName": "Januvia",
+      "description": "Januvia is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 370
+        }
+      ]
+    },
+    {
+      "drugId": 38,
+      "drugName": "Jevtana",
+      "description": "evtana is used together with prednisone to treat prostate cancer that has spread to other parts of the body (metastatic)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 39,
+      "drugName": "Jublia",
+      "description": "Jublia is used to treat a fungal infection of the toenail called onychomycosis",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 580
+        }
+      ]
+    },
+    {
+      "drugId": 40,
+      "drugName": "Juluca",
+      "description": "Juluca is used to treat HIV, the virus that can cause the acquired immunodeficiency syndrome (AIDS)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 330
+        }
+      ]
+    },
+    {
+      "drugId": 41,
+      "drugName": "Kadian",
+      "description": "Kadian extended-release capsules are used to treat moderate to severe pain",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "drugId": 42,
+      "drugName": "Ketamine",
+      "description": "Ketamine is used to put you to sleep for surgery and to prevent pain and discomfort during certain medical tests or procedures",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 490
+        }
+      ]
+    },
+    {
+      "drugId": 43,
+      "drugName": "Kisqali",
+      "description": "Kisqali (ribociclib) is a cancer medicine that interferes with the growth and spread of cancer cells in the body",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "drugId": 44,
+      "drugName": "Klonopin",
+      "description": "Klonopin is used to treat certain seizure disorders (including absence seizures or Lennox-Gastaut syndrome) in adults and children",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "drugId": 45,
+      "drugName": "Levemir",
+      "description": "Levemir is used to improve blood sugar control in adults and children with diabetes mellitus",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 460
+        }
+      ]
+    },
+    {
+      "drugId": 46,
+      "drugName": "Lipitor",
+      "description": "Lipitor is used to treat high cholesterol, and to lower the risk of stroke, heart attack, or other heart complications in people with type 2 diabetes, coronary heart disease, or other risk factors such as genetically high cholesterol",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "drugId": 47,
+      "drugName": "Lunesta",
+      "description": "Lunesta is used to treat insomnia",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "drugId": 48,
+      "drugName": "Lortab",
+      "description": "Lortab is used to relieve moderate to severe pain",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 49,
+      "drugName": "Medrol",
+      "description": "Medrol is a steroid that prevents the release of substances in the body that cause inflammation",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 50,
+      "drugName": "Metoprolol",
+      "description": "Metoprolol is used to treat angina (chest pain) and hypertension (high blood pressure)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 51,
+      "drugName": "MiraLax",
+      "description": "MiraLax is used as a laxative to treat occasional constipation or irregular bowel movements",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "drugId": 52,
+      "drugName": "Motrin",
+      "description": "Motrin is used to reduce fever and treat pain or inflammation caused by many conditions such as headache, toothache, back pain, arthritis, menstrual cramps, or minor injury",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "drugId": 53,
+      "drugName": "Nadolol",
+      "description": "Nadolol is used to treat angina (chest pain) or hypertension (high blood pressure)",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "drugId": 54,
+      "drugName": "Namenda",
+      "description": "Namenda is used to treat moderate to severe dementia of the Alzheimer's type",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 55,
+      "drugName": "Nexium",
+      "description": "Nexium (esomeprazole magnesium) is a proton pump inhibitor that decreases the amount of acid produced in the stomach",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 800
+        }
+      ]
+    },
+    {
+      "drugId": 56,
+      "drugName": "Norvasc",
+      "description": "Norvasc is used to treat chest pain (angina) and other conditions caused by coronary artery disease",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 540
+        }
+      ]
+    },
+    {
+      "drugId": 57,
+      "drugName": "Ocrevus",
+      "description": "Ocrevus is used to treat multiple sclerosis (relapsing or progressive forms)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 420
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 650
+        }
+      ]
+    },
+    {
+      "drugId": 58,
+      "drugName": "Otezla",
+      "description": "Otezla is used to treat the symptoms of active psoriatic arthritis in adults",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "drugId": 59,
+      "drugName": "Oxazepam",
+      "description": "Oxazepam is used to treat anxiety disorders or alcohol withdrawal symptoms",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 300
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "drugId": 60,
+      "drugName": "Orilissa",
+      "description": "Orilissa works by lowering blood levels of estradiol and progesterone ",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "drugId": 61,
+      "drugName": "Phenergan",
+      "description": "Phenergan is used to treat allergy symptoms such as itching, runny nose, sneezing, itchy or watery eyes, hives, and itchy skin rashes",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 200
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "drugId": 62,
+      "drugName": "Percocet",
+      "description": "Percocet is used to relieve moderate to severe pain",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 300
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 63,
+      "drugName": "Pristiq",
+      "description": "Pristiq is used to treat major depressive disorder",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "drugId": 64,
+      "drugName": "Plavix",
+      "description": "Plavix (clopidogrel) prevents platelets in your blood from sticking together to form an unwanted blood clot that could block an artery",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 65,
+      "drugName": "Qbrelis",
+      "description": "Qbrelis is an ACE inhibitor that is used to treat high blood pressure (hypertension) in adults and children who are at least 6 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "drugId": 66,
+      "drugName": "Qtern",
+      "description": "Qtern is used together with diet and exercise to improve blood sugar control in adults with type 2 diabetes mellitus",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 67,
+      "drugName": "Quetiapine",
+      "description": "Quetiapine is used to treat bipolar disorder (manic depression) in adults and children who are at least 10 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 68,
+      "drugName": "Qvar",
+      "description": "Qvar is used to prevent asthma attacks in adults and children who are at least 5 years old. This medication will not treat an asthma attack that has already begun",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "drugId": 69,
+      "drugName": "Ranexa",
+      "description": "Ranexa is used to treat chronic angina (chest pain). It is not for use during an acute (emergency) attack of angina",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 320
+        }
+      ]
+    },
+    {
+      "drugId": 70,
+      "drugName": "Relpax",
+      "description": "Relpax is used to treat migraine headaches. Eletriptan will only treat a headache that has already begun. It will not prevent headaches or reduce the number of attacks",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 380
+        }
+      ]
+    },
+    {
+      "drugId": 71,
+      "drugName": "Renvela",
+      "description": "Renvela is used to control phosphorus levels in people with chronic kidney disease who are on dialysis",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "drugId": 72,
+      "drugName": "Rocephin",
+      "description": "Rocephin is used to treat many kinds of bacterial infections, including severe or life-threatening forms such as meningitis",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 73,
+      "drugName": "Septra",
+      "description": "Septra is used to treat ear infections, urinary tract infections, bronchitis, traveler's diarrhea, shigellosis, and Pneumocystis jiroveci pneumonia",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 850
+        }
+      ]
+    },
+    {
+      "drugId": 74,
+      "drugName": "Seroquel",
+      "description": "Seroquel is used to treat bipolar disorder (manic depression) in adults and children who are at least 10 years old",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 650
+        }
+      ]
+    },
+    {
+      "drugId": 75,
+      "drugName": "Sudafed",
+      "description": "Sudafed is used to treat nasal and sinus congestion, or congestion of the tubes that drain fluid from your inner ears, called the eustachian (yoo-STAY-shun) tubes",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 460
+        }
+      ]
+    },
+    {
+      "drugId": 76,
+      "drugName": "Soma",
+      "description": "Soma is used together with rest and physical therapy to treat skeletal muscle conditions such as pain or injury",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 260
+        }
+      ]
+    },
+    {
+      "drugId": 77,
+      "drugName": "Tamiflu",
+      "description": "Tamiflu (oseltamivir) is an antiviral medication that blocks the actions of influenza virus types A and B in your body",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 380
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 700
+        }
+      ]
+    },
+    {
+      "drugId": 78,
+      "drugName": "Tegretol",
+      "description": "Tegretol is used to treat certain types of seizures (partial, tonic-clonic, mixed)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 300
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 420
+        }
+      ]
+    },
+    {
+      "drugId": 79,
+      "drugName": "Tetracycline",
+      "description": "Tetracycline is an antibiotic that fights infection caused by bacteria",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "drugId": 80,
+      "drugName": "Trulicity",
+      "description": "It is used to lower blood sugar in patients with high blood sugar (diabetes)",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 850
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "drugId": 81,
+      "drugName": "Uceris",
+      "description": "Uceris is used to treat mild to moderate Crohn's disease",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 600
+        }
+      ]
+    },
+    {
+      "drugId": 82,
+      "drugName": "Ultane",
+      "description": "Ultane is an anesthetic. It works by depressing activity in the central nervous system, which causes loss of consciousness",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 620
+        }
+      ]
+    },
+    {
+      "drugId": 83,
+      "drugName": "Ultram",
+      "description": "Ultram is used to treat moderate to severe pain",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 360
+        }
+      ]
+    },
+    {
+      "drugId": 84,
+      "drugName": "Uptravi",
+      "description": "Uptravi is used to treat pulmonary arterial hypertension",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 430
+        }
+      ]
+    },
+    {
+      "drugId": 85,
+      "drugName": "Valium",
+      "description": "Valium is used to treat anxiety disorders, alcohol withdrawal symptoms, or muscle spasms",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 540
+        }
+      ]
+    },
+    {
+      "drugId": 86,
+      "drugName": "Vasotec",
+      "description": "Vasotec is used to treat high blood pressure (hypertension) in adults and children who are at least 1 month old",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 750
+        }
+      ]
+    },
+    {
+      "drugId": 87,
+      "drugName": "Vistaril",
+      "description": "Vistaril is used as a sedative to treat anxiety and tension. It is also used together with other medications given during and after general anesthesia",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "drugId": 88,
+      "drugName": "Vraylar",
+      "description": "Vraylar is used to treat schizophrenia in adults",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 89,
+      "drugName": "Warfarin",
+      "description": "Warfarin is used to treat or prevent blood clots in veins or arteries, which can reduce the risk of stroke, heart attack, or other serious conditions",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "drugId": 90,
+      "drugName": "Wellbutrin",
+      "description": "Wellbutrin (bupropion) is an antidepressant medication used to treat major depressive disorder and seasonal affective disorder",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "drugId": 91,
+      "drugName": "Welchol",
+      "description": "Welchol is used to improve blood sugar control in people with type 2 diabetes. This medication is not for treating type 1 diabetes",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "drugId": 92,
+      "drugName": "Xarelto",
+      "description": "Xarelto (rivaroxaban) blocks the activity of certain clotting substances in the blood",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 93,
+      "drugName": "Xolair",
+      "description": "Xolair (omalizumab) is an antibody that helps decrease allergic responses in the body",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 520
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 700
+        }
+      ]
+    },
+    {
+      "drugId": 94,
+      "drugName": "Xerava",
+      "description": "Xerava is a tetracycline antibiotic that fights bacteria in the body",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 380
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 530
+        }
+      ]
+    },
+    {
+      "drugId": 95,
+      "drugName": "Yohimbe",
+      "description": "Yohimbe may help prevent syncope (fainting), as suggested in clinical studies",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 250
+        },
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "drugId": 96,
+      "drugName": "Yonsa",
+      "description": "Yonsa works by reducing androgen production in the body. Androgens are male hormones that can promote tumor growth in the prostate gland",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "drugId": 97,
+      "drugName": "Yutiq",
+      "description": "Yutiq is also used to treat posterior uveitis, inflammation that affects the back of the eye",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "drugId": 98,
+      "drugName": "Zantac",
+      "description": "Zantac (ranitidine) belongs to a group of drugs called histamine-2 blockers. Ranitidine works by reducing the amount of acid your stomach produces",
+      "forms": [
+        {
+          "type": "syrup",
+          "quantity": "100",
+          "unit": "ml",
+          "strength": "10mg",
+          "price": 460
+        }
+      ]
+    },
+    {
+      "drugId": 99,
+      "drugName": "Zomig",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "drugId": 100,
+      "drugName": "Zosyn?",
+      "description": "Zosyn is used to treat many different infections caused by bacteria, such as stomach infections, skin infections, pneumonia, and severe vaginal infections",
+      "forms": [
+        {
+          "type": "tablet",
+          "quantity": "10",
+          "unit": "pcs",
+          "strength": "10mg",
+          "price": 580
+        }
+      ]
+    }
+  ]
+}

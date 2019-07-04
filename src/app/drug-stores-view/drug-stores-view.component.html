@@ -1,0 +1,4 @@
+<agm-map [latitude]="lat" [longitude]="lng" [fitBounds]="true">
+  <agm-marker [agmFitBounds]="true" *ngFor="let retailer of filteredRetailers" [latitude]="retailer.latitude"
+    [longitude]="retailer.longitude"></agm-marker>
+</agm-map>

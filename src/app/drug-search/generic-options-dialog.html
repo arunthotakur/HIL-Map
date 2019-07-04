@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>Generic options</h1>
+<div mat-dialog-content>
+
+  <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="selectedDrugType">
+    <mat-radio-button class="example-radio-button" *ngFor="let form of data.drug.forms" [value]="form.type">
+      <b>{{form?.type}}</b>
+    </mat-radio-button>
+  </mat-radio-group>
+
+  <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="selectedDrugStrength">
+    <mat-radio-button class="example-radio-button" *ngFor="let form of data.drug.forms" [value]="form.strength">
+      <b>{{form?.strength}}</b>
+    </mat-radio-button>
+  </mat-radio-group>
+
+  <mat-radio-group aria-labelledby="example-radio-group-label" class="example-radio-group" [(ngModel)]="selectedDrugQuantity">
+    <mat-radio-button class="example-radio-button" *ngFor="let form of data.drug.forms" [value]="form.quantity">
+      <b>{{form?.quantity +' '+form?.unit}}</b>
+    </mat-radio-button>
+  </mat-radio-group>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+</div>

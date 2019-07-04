@@ -1,0 +1,32 @@
+<form [style.fontSize.px]="'12px'" class="example-form">
+  <mat-grid-list cols="12">
+    <mat-grid-tile [colspan]="8">
+      <mat-form-field appearance="fill" style="margin-right:10px;width:100%">
+        <mat-label>Drug</mat-label>
+        <mat-icon style="font-weight:bold;color: orangered;" aria-hidden="false" aria-label="Example home icon"
+          matPrefix>search</mat-icon>
+        <input matInput aria-label="Drug" name="drugkey" (keyup)="onDrugNameChange()" [matAutocomplete]="auto"
+          [(ngModel)]="drugNameSearchKey">
+        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onDrugSelect($event)" [displayWith]="getDisplayName">
+          <mat-option *ngFor="let drug of filteredDrugs" [value]="drug">
+            <span>{{drug?.drugName}}</span> |
+            <small>{{drug?.description}}</small>
+          </mat-option>
+        </mat-autocomplete>
+
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4">
+      <mat-form-field appearance="fill" style="width:100%">
+        <mat-label>Zipcode</mat-label>
+        <mat-icon style="font-weight:bold;color: red;" aria-hidden="false" aria-label="Example home icon" matPrefix>location_on</mat-icon>
+        <input matInput name="zipcodeField" (keyup)="getDrugLocations()" [(ngModel)]="zipcode">
+      </mat-form-field>
+    </mat-grid-tile>
+  </mat-grid-list>
+</form>
+<mat-slide-toggle (change)="openDialog()" *ngIf="showGenericOptionSelection" class="example-margin" [color]="'primary'"
+  [checked]="showGenericOptions">
+  Show generic options
+</mat-slide-toggle>
+<drug-stores-view [filteredRetailers]="filteredRetailers" *ngIf="filteredRetailers.length>0"></drug-stores-view>

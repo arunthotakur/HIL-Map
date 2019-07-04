@@ -1,0 +1,55 @@
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .search-container {
+  float: none;
+}
+
+.topnav input[type="search"] {
+  padding: 16px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav input[type="number"] {
+  padding: 16px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: none;
+  padding: 16px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+}
+
+
+.search-card{
+  border-radius: 10px;
+  width: 25%;
+  padding: 10px;
+}
+
+.aligned-with-icon{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px; /* optional */
+}

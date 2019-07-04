@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center" [style.margin-top]="'20px'">
+  <p style="font-size:24px">{{greeting}}</p><br />
+</div>
+<div fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center" [style.margin-top]="'20px'">
+  <h3 style="font-size:32px">What's the name of your medication?</h3><br />
+</div>
+
+<div fxLayout="row" fxLayoutGap="5px" (click)="onSearchClick()" (mouseleave)="highlight=!highlight" (mouseenter)="highlight=!highlight"
+  fxLayoutAlign="center center" [style.margin-top]="'20px'">
+  <mat-card class="search-card z-depth-2" [ngClass]="{'z-depth-3':highlight}">
+    <mat-icon style="font-weight:bold;color: orangered;margin-top: 2px" aria-hidden="false" aria-label="Example home icon">search</mat-icon>
+    <span class="aligned-with-icon">Like "Lipitor" or "Prilosec"</span>
+  </mat-card>
+</div>

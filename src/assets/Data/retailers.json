@@ -1,0 +1,804 @@
+{
+  "retailers": [
+    {
+      "retailerId": 100,
+      "retailerName": "Diamond Pharmacy",
+      "address": "656 New Haven Ave, Derby",
+      "longitude": 41.40338,
+      "latitude": 2.17403,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 101,
+      "retailerName": "Acculife Drug Stores",
+      "address": "1717 South College Street, Auburn",
+      "longitude": 50.23569,
+      "latitude": 12.52369,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 102,
+      "retailerName": "ACME Pharmacy",
+      "address": "9248 Parkway East, Birmingham",
+      "longitude": 14.89652,
+      "latitude": 58.23546,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 103,
+      "retailerName": "Atlas Drugs",
+      "address": "1300 Montgomery Highway, Vestavia Hills",
+      "longitude": 78.36945,
+      "latitude": 25.78654,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 104,
+      "retailerName": "Bartell Drugs",
+      "address": "1607 23rd Street NW, Washington",
+      "longitude": 51.36248,
+      "latitude": 36.21156,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 105,
+      "retailerName": "Be Well Pharmacy",
+      "address": "664 Dickens Road, Lilburn, Georgia",
+      "longitude": 69.23548,
+      "latitude": 75.12548,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 106,
+      "retailerName": "Better You Pharmacy",
+      "address": "9520 Faires Farm Road, Charlotte",
+      "longitude": 78.25469,
+      "latitude": 22.32323,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 107,
+      "retailerName": "Betterlife Pharmacy",
+      "address": "526 Superior Avenue",
+      "longitude": 23.36985,
+      "latitude": 69.21547,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 108,
+      "retailerName": "Beyond Health Drug Store",
+      "address": "Suite 1255, Cleveland",
+      "longitude": 31.20145,
+      "latitude": 75.58462,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 109,
+      "retailerName": "Bigwish Pharmacy",
+      "address": "2312 Dorrington Dr., Dallas",
+      "longitude": 96.21547,
+      "latitude": 22.65891,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 110,
+      "retailerName": "BJ`S Wholesale Club",
+      "address": "2026 Scott Street, Hollywood",
+      "longitude": 34.25841,
+      "latitude": 36.35412,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 111,
+      "retailerName": "Brennen Drugs Co",
+      "address": "318 Canino Road, Houston",
+      "longitude": 89.36521,
+      "latitude": 45.12354,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 112,
+      "retailerName": "Brett Pharma",
+      "address": "77 Massachusetts Avenue",
+      "longitude": 86.98745,
+      "latitude": 3.12457,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 113,
+      "retailerName": "Brightwell Pharmacy",
+      "address": "1907 Spruce Street, Philadelphia",
+      "longitude": 1.23547,
+      "latitude": 10.23598,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 114,
+      "retailerName": "Buehler Pharmacy",
+      "address": "737,Michigan Avenue",
+      "longitude": 98.32546,
+      "latitude": 16.52398,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 115,
+      "retailerName": "Centrico Pharmacy",
+      "address": "7280 N. Caldwell Avenue, Niles",
+      "longitude": 2.13684,
+      "latitude": 9.32651,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 116,
+      "retailerName": "CVS Pharmacy",
+      "address": "777 Woodward Avenue",
+      "longitude": 63.23475,
+      "latitude": 6.35214,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 117,
+      "retailerName": "Dahls Pharmacy",
+      "address": "1250 East Moore Lake Drive",
+      "longitude": 34.36951,
+      "latitude": 65.10248,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 118,
+      "retailerName": "Dakota Pharmacy",
+      "address": "4761 Industrial Pkwy",
+      "longitude": 64.25874,
+      "latitude": 37.12943,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 119,
+      "retailerName": "Discount Drug Mart",
+      "address": "11766 Wilshire Blvd",
+      "longitude": 91.35468,
+      "latitude": 45.6322,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 120,
+      "retailerName": "Discount Emporium",
+      "address": "26050 Kay Ave., Hayward",
+      "longitude": 96.12457,
+      "latitude": 3.12456,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 121,
+      "retailerName": "Drug Blend",
+      "address": "1350,Red Rock Street",
+      "longitude": 75.32697,
+      "latitude": 52.23147,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 122,
+      "retailerName": "Essential Pharmacy",
+      "address": "5306,Walnut Ave",
+      "longitude": 56.12387,
+      "latitude": 4.23598,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 123,
+      "retailerName": "Essura Pharmacy",
+      "address": "Monroe, Suite C145, Phoenix",
+      "longitude": 8.36954,
+      "latitude": 74.32186,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 124,
+      "retailerName": "Everyday Drugs",
+      "address": "1151 SW Vermont, Portland",
+      "longitude": 75.19846,
+      "latitude": 36.21864,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 125,
+      "retailerName": "Family Fare Pharmacy",
+      "address": "1265 East Fort Union Blvd.",
+      "longitude": 64.36975,
+      "latitude": 12.58734,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 126,
+      "retailerName": "Family Pharmacy",
+      "address": "72 Main St, North Reading",
+      "longitude": 96.12583,
+      "latitude": 29.35876,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 127,
+      "retailerName": "Florrax Pharmacy",
+      "address": "200 Otis Street, Northborough",
+      "longitude": 75.12369,
+      "latitude": 74.23624,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 128,
+      "retailerName": "Forward Drugs",
+      "address": "180 North King Street, Northhampton",
+      "longitude": 76.12698,
+      "latitude": 1.23876,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 129,
+      "retailerName": "Fruth Pharmacy",
+      "address": "555 East Main St, Orange MA 1364",
+      "longitude": 68.68743,
+      "latitude": 45.86472,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 130,
+      "retailerName": "Genovese Drug Store",
+      "address": "555 Hubbard Ave-Suite 12, Pittsfield",
+      "longitude": 6.25478,
+      "latitude": 3.14765,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 131,
+      "retailerName": "Giant Eagle, Inc.",
+      "address": "300 Colony Place",
+      "longitude": 5.78624,
+      "latitude": 7.36578,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 132,
+      "retailerName": "Good Neighbor Pharmacy",
+      "address": "301 Falls Blvd, Quincy MA 2169",
+      "longitude": 16.34851,
+      "latitude": 66.98765,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 133,
+      "retailerName": "Goodness Pharmacy",
+      "address": "36 Paramount Drive, Raynham",
+      "longitude": 55.47659,
+      "latitude": 39.45761,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 134,
+      "retailerName": "Goodstart Pharmacy",
+      "address": "450 Highland Ave, Salem",
+      "longitude": 14.86753,
+      "latitude": 45.98613,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 135,
+      "retailerName": "Great Pharmacy",
+      "address": "1180 Fall River Avenue, Seekonk",
+      "longitude": 75.68432,
+      "latitude": 12.56478,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 136,
+      "retailerName": "Heallergy Pharmacy",
+      "address": "1105 Boston Road, Springfield",
+      "longitude": 78.32654,
+      "latitude": 56.32984,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 137,
+      "retailerName": "Health Aura Drugs",
+      "address": "100 Charlton Road, Sturbridge",
+      "longitude": 31.25641,
+      "latitude": 76.21483,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 138,
+      "retailerName": "Health Corner",
+      "address": "262 Swansea Mall Dr, Swansea",
+      "longitude": 64.21385,
+      "latitude": 96.32148,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 139,
+      "retailerName": "Health Element",
+      "address": "333 Main Street, Tewksbury",
+      "longitude": 4.23467,
+      "latitude": 6.32541,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 140,
+      "retailerName": "Health Harvest",
+      "address": "550 Providence Hwy, Walpole",
+      "longitude": 75.12345,
+      "latitude": 2.15738,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 141,
+      "retailerName": "Health Hexa Drugs",
+      "address": "352 Palmer Road, Ware",
+      "longitude": 57.36542,
+      "latitude": 23.98641,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 142,
+      "retailerName": "Health Hub",
+      "address": "3005 Cranberry Hwy",
+      "longitude": 65.32167,
+      "latitude": 34.85642,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 143,
+      "retailerName": "Health Mart",
+      "address": "141 Washington Ave Extension",
+      "longitude": 85.36254,
+      "latitude": 74.15438,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 144,
+      "retailerName": "Healthbest Pharmacy",
+      "address": "13858 Rt 31 W, Albion",
+      "longitude": 33.24875,
+      "latitude": 53.45687,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 145,
+      "retailerName": "Healthlink Pharmacy",
+      "address": "2055 Niagara Falls Blvd, Amherst",
+      "longitude": 40.23561,
+      "latitude": 14.32187,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 146,
+      "retailerName": "Healthy Floyyds Pharmacy",
+      "address": "101 Sanford Farm Shpg Center, Amsterdam",
+      "longitude": 35.98624,
+      "latitude": 20.86341,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 147,
+      "retailerName": "Heartland Pharmacy",
+      "address": "297 Grant Avenue, Auburn",
+      "longitude": 73.21564,
+      "latitude": 45.98621,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 148,
+      "retailerName": "Hearty Mart",
+      "address": "4133 Veterans Memorial Drive, Batavia",
+      "longitude": 69.69856,
+      "latitude": 43.12365,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 149,
+      "retailerName": "IDL Drug Stores",
+      "address": "6265 Brockport Spencerport Rd",
+      "longitude": 96.25743,
+      "latitude": 64.12573,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 150,
+      "retailerName": "IHC Pharmacy",
+      "address": "5399 W Genesse St, Camillus",
+      "longitude": 98.95341,
+      "latitude": 32.12786,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 151,
+      "retailerName": "Ingles Markets",
+      "address": "3191 County rd 10, Canandaigua",
+      "longitude": 49.12358,
+      "latitude": 53.12478,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 152,
+      "retailerName": "Innovia Drug Stores",
+      "address": "161 Centereach Mall, Centereach",
+      "longitude": 79.36524,
+      "latitude": 32.21375,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 153,
+      "retailerName": "Kerr Drugs",
+      "address": "3018 East Ave, Central Square",
+      "longitude": 63.63542,
+      "latitude": 65.12478,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 154,
+      "retailerName": "Keystone Pharmacy",
+      "address": "100 Thruway Plaza, Cheektowaga",
+      "longitude": 12.34278,
+      "latitude": 64.32578,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 155,
+      "retailerName": "Knight Drugs",
+      "address": "8064 Brewerton Rd, Cicero",
+      "longitude": 86.12367,
+      "latitude": 55.57843,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 156,
+      "retailerName": "Lifecheck Pharmacy",
+      "address": "5033 Transit Road, Clarence",
+      "longitude": 22.62348,
+      "latitude": 8.21357,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 157,
+      "retailerName": "Lifesave Pharmacy",
+      "address": "3949 Route 31, Clay NY",
+      "longitude": 83.23475,
+      "latitude": 97.23475,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 158,
+      "retailerName": "Lifezest Pharmacy",
+      "address": "139 Merchant Place, Cobleskill ",
+      "longitude": 63.17542,
+      "latitude": 35.74628,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 159,
+      "retailerName": "Louis And Clark Drug",
+      "address": "85 Crooked Hill Road, Commack",
+      "longitude": 85.34127,
+      "latitude": 46.78134,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 160,
+      "retailerName": "Lyfe Pharmacy",
+      "address": "872 Route 13, Cortlandville",
+      "longitude": 91.24753,
+      "latitude": 56.84625,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 161,
+      "retailerName": "Marsh Drug Store",
+      "address": "279 Troy Road, East Greenbush",
+      "longitude": 62.12457,
+      "latitude": 6.12375,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 162,
+      "retailerName": "Marxs Pharmacy",
+      "address": "2465 Hempstead Turnpike, East Meadow",
+      "longitude": 68.65478,
+      "latitude": 2.45237,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 163,
+      "retailerName": "Max Health Pharmacy",
+      "address": "6438 Basile Rowe, East Syracuse",
+      "longitude": 48.23478,
+      "latitude": 63.24875,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 164,
+      "retailerName": "Mediserv Pharmacy",
+      "address": "25737 US Rt 11, Evans Mills",
+      "longitude": 32.12459,
+      "latitude": 37.25468,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 165,
+      "retailerName": "Med-X Drugs",
+      "address": "901 Route 110, Farmingdale",
+      "longitude": 68.12973,
+      "latitude": 44.32576,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 166,
+      "retailerName": "Moore King Pharmacy",
+      "address": "2400 Route 9, Fishkill",
+      "longitude": 97.85674,
+      "latitude": 18.32647,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 167,
+      "retailerName": "Neighborcare Pharmacy",
+      "address": "10401 Bennett Road, Fredonia",
+      "longitude": 88.32647,
+      "latitude": 64.35742,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 168,
+      "retailerName": "Newday Drug Store",
+      "address": "1818 State Route 3, Fulton",
+      "longitude": 83.21467,
+      "latitude": 34.12674,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 169,
+      "retailerName": "Pharma Best",
+      "address": "4300 Lakeville Road, Geneseo",
+      "longitude": 39.32657,
+      "latitude": 62.31467,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 170,
+      "retailerName": "Pharma First",
+      "address": "990 Route 5 20, Geneva",
+      "longitude": 46.23478,
+      "latitude": 27.56943,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 171,
+      "retailerName": "Pharma Street",
+      "address": "311 RT 9W, Glenmont",
+      "longitude": 81.36475,
+      "latitude": 93.24651,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 172,
+      "retailerName": "Planet Health",
+      "address": "200 Dutch Meadows Ln, Glenville",
+      "longitude": 46.32547,
+      "latitude": 37.23478,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 173,
+      "retailerName": "Protowell Pharmacy",
+      "address": "1549 Rt 9, Halfmoon",
+      "longitude": 9.64875,
+      "latitude": 18.47568,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 174,
+      "retailerName": "Randalls Food & Drug",
+      "address": "5360 Southwestern Blvd, Hamburg",
+      "longitude": 16.24876,
+      "latitude": 17.36974,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 175,
+      "retailerName": "Rejuvva Drugs",
+      "address": "103 North Caroline St, Herkimer",
+      "longitude": 23.65476,
+      "latitude": 84.36751,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 176,
+      "retailerName": "Revco Discount Drugs",
+      "address": "1000 State Route 36, Hornell",
+      "longitude": 74.98654,
+      "latitude": 64.25873,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 177,
+      "retailerName": "Right Drugs",
+      "address": "1400 County Rd 64, Horseheads",
+      "longitude": 6.12457,
+      "latitude": 26.74536,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 178,
+      "retailerName": "Robust Pharmacy",
+      "address": "135 Fairgrounds Memorial Pkwy",
+      "longitude": 7.35681,
+      "latitude": 34.35471,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 179,
+      "retailerName": "Rxtra Pharmacy",
+      "address": "2 Gannett Dr, Johnson City",
+      "longitude": 54.64725,
+      "latitude": 61.32457,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 180,
+      "retailerName": "Schnucks Pharmacy",
+      "address": "233 5th Ave Ext, Johnstown",
+      "longitude": 25.34758,
+      "latitude": 41.23475,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 181,
+      "retailerName": "Shoppevita Pharmacy",
+      "address": "601 Frank Stottile Blvd, Kingston",
+      "longitude": 47.36258,
+      "latitude": 30.14756,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 182,
+      "retailerName": "Shoprite Pharmacy",
+      "address": "350 E Fairmount Ave, Lakewood",
+      "longitude": 32.14578,
+      "latitude": 73.65748,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 183,
+      "retailerName": "Smart Pharmacy",
+      "address": "4975 Transit Rd, Lancaster",
+      "longitude": 78.65472,
+      "latitude": 36.21465,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 184,
+      "retailerName": "Stayiess Pharmacy",
+      "address": "579 Troy-Schenectady Road, Latham",
+      "longitude": 10.68732,
+      "latitude": 35.12497,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 185,
+      "retailerName": "Syngex Drugs",
+      "address": "5783 So Transit Road, Lockport",
+      "longitude": 20.74365,
+      "latitude": 43.98567,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 186,
+      "retailerName": "The Pharmacy Coop.",
+      "address": "7155 State Rt 12 S, Lowville",
+      "longitude": 39.25746,
+      "latitude": 41.68753,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 187,
+      "retailerName": "Virgo Pharmacy",
+      "address": "425 Route 31, Macedon",
+      "longitude": 33.25467,
+      "latitude": 23.47561,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 188,
+      "retailerName": "Vista Pharmacy",
+      "address": "3222 State Rt 11, Malone",
+      "longitude": 53.26547,
+      "latitude": 27.36578,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 189,
+      "retailerName": "Vitasource Pharmacy",
+      "address": "200 Sunrise Mall, Massapequa",
+      "longitude": 91.32657,
+      "latitude": 64.98472,
+      "zipcode": 19030
+    },
+    {
+      "retailerId": 190,
+      "retailerName": "Wellcare Pharmacy",
+      "address": "43 Stephenville St, Massena",
+      "longitude": 84.36472,
+      "latitude": 45.32657,
+      "zipcode": 19021
+    },
+    {
+      "retailerId": 191,
+      "retailerName": "Wellfresh Pharmacy",
+      "address": "750 Middle Country Road, Middle Island",
+      "longitude": 75.36987,
+      "latitude": 14.23579,
+      "zipcode": 19022
+    },
+    {
+      "retailerId": 192,
+      "retailerName": "Wellness Craft Pharmacy",
+      "address": "470 Route 211 East, Middletown",
+      "longitude": 75.98461,
+      "latitude": 64.32678,
+      "zipcode": 19023
+    },
+    {
+      "retailerId": 193,
+      "retailerName": "Wellocity Pharmacy",
+      "address": "3133 E Main St, Mohegan Lake",
+      "longitude": 46.25784,
+      "latitude": 65.24783,
+      "zipcode": 19024
+    },
+    {
+      "retailerId": 194,
+      "retailerName": "Wellpharma Pharmacy",
+      "address": "288 Larkin, Monroe",
+      "longitude": 24.25786,
+      "latitude": 32.12475,
+      "zipcode": 19025
+    },
+    {
+      "retailerId": 195,
+      "retailerName": "Wellport Drugs",
+      "address": "41 Anawana Lake Road, Monticello",
+      "longitude": 92.45317,
+      "latitude": 4.57612,
+      "zipcode": 19026
+    },
+    {
+      "retailerId": 196,
+      "retailerName": "Welltrack Pharmacy",
+      "address": "4765 Commercial Drive, New Hartford",
+      "longitude": 39.784,
+      "latitude": 5.24786,
+      "zipcode": 19027
+    },
+    {
+      "retailerId": 197,
+      "retailerName": "Wellwise Pharmacy",
+      "address": "1201 Rt 300, Newburgh",
+      "longitude": 57.48675,
+      "latitude": 12.45768,
+      "zipcode": 19028
+    },
+    {
+      "retailerId": 198,
+      "retailerName": "White Pigeon Pharmacy",
+      "address": "255 W Main St, Avon",
+      "longitude": 14.75864,
+      "latitude": 53.12764,
+      "zipcode": 19029
+    },
+    {
+      "retailerId": 199,
+      "retailerName": "Zenrx Pharmacy",
+      "address": "120 Commercial Parkway, Branford",
+      "longitude": 74.36985,
+      "latitude": 3.12475,
+      "zipcode": 19030
+    }
+  ]
+}
