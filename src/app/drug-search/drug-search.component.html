@@ -3,8 +3,9 @@
     <mat-grid-tile [colspan]="8">
       <mat-form-field appearance="fill" style="margin-right:10px;width:100%">
         <mat-label>Drug</mat-label>
-        <mat-icon style="font-weight:bold;color: orangered;" aria-hidden="false" aria-label="Example home icon"
-          matPrefix>search</mat-icon>
+        <!-- <mat-icon style="font-weight:bold;color: orangered;" aria-hidden="false" aria-label="Example home icon"
+          matPrefix>search</mat-icon> -->
+        <mat-icon aria-hidden="false" aria-label="Example home icon" svgIcon="medical_drug_pill" matPrefix></mat-icon>
         <input matInput aria-label="Drug" name="drugkey" (keyup)="onDrugNameChange()" [matAutocomplete]="auto"
           [(ngModel)]="drugNameSearchKey">
         <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onDrugSelect($event)" [displayWith]="getDisplayName">
@@ -13,7 +14,6 @@
             <small>{{drug?.description}}</small>
           </mat-option>
         </mat-autocomplete>
-
       </mat-form-field>
     </mat-grid-tile>
     <mat-grid-tile [colspan]="4">
@@ -25,8 +25,52 @@
     </mat-grid-tile>
   </mat-grid-list>
 </form>
-<mat-slide-toggle (change)="openDialog()" *ngIf="showGenericOptionSelection" class="example-margin" [color]="'primary'"
-  [checked]="showGenericOptions">
+<button type="button" style="margin-bottom: 15px" mat-raised-button mat-button *ngIf="showGenericOptionSelection"
+  (click)="drawer.toggle()">
+  <mat-icon style="font-weight:bold;" color="primary" aria-hidden="false" aria-label="Example home icon" matPrefix>filter_list</mat-icon>
   Show generic options
-</mat-slide-toggle>
-<drug-stores-view [filteredRetailers]="filteredRetailers" *ngIf="filteredRetailers.length>0"></drug-stores-view>
+</button>
+<div fxLayout="row">
+  <div fxFlex="100%">
+    <mat-drawer-container class="example-container" autosize>
+      <mat-drawer #drawer class="example-sidenav" mode="side">
+        <form class="example-container" [style.fontSize.px]="'10px'">
+          <div style="padding:10px">
+            <p style="color:#F5B041;font-size: 16px;margin: 5px;font-weight: bold">FORMS</p>
+            <mat-divider></mat-divider>
+            <mat-radio-group name="selectedDrugTypeField" style="margin:10px;margin-bottom: 20px" aria-labelledby="example-radio-group-label"
+              class="filter-radio-group" [(ngModel)]="selectedDrugType">
+              <mat-radio-button [disableRipple]="true" class="example-radio-button" *ngFor="let form of formsList"
+                [value]="form">
+                <span style="text-transform:capitalize">{{form}}</span>
+              </mat-radio-button>
+            </mat-radio-group>
+            <p style="color:#F5B041;font-size: 16px;margin: 5px;font-weight: bold">STRENGTHS</p>
+            <mat-divider></mat-divider>
+            <mat-radio-group name="selectedDrugStrengthField" style="margin:10px;margin-bottom: 20px" aria-labelledby="example-radio-group-label"
+              class="filter-radio-group" [(ngModel)]="selectedDrugStrength">
+              <mat-radio-button [disableRipple]="true" class="example-radio-button" *ngFor="let strength of strengthsList"
+                [value]="strength">
+                <span>{{strength}}</span>
+              </mat-radio-button>
+            </mat-radio-group>
+            <p style="color:#F5B041;font-size: 16px;margin: 5px;font-weight: bold">QUANTITIES</p>
+            <mat-divider></mat-divider>
+            <mat-radio-group name="selectedDrugQuantityField" style="margin:10px;margin-bottom: 20px" aria-labelledby="example-radio-group-label"
+              class="filter-radio-group" [(ngModel)]="selectedDrugQuantity">
+              <mat-radio-button [disableRipple]="true" class="example-radio-button" *ngFor="let quantity of quantitiesList"
+                [value]="quantity">
+                <span>{{quantity}}</span>
+              </mat-radio-button>
+            </mat-radio-group>
+            <button type="button" (click)="filterByGenericOptions()" mat-raised-button mat-button color="primary">Search</button>
+          </div>
+        </form>
+      </mat-drawer>
+
+      <div class="example-sidenav-content">
+        <drug-stores-view [filteredRetailers]="filteredRetailers" *ngIf="filteredRetailers.length>0"></drug-stores-view>
+      </div>
+    </mat-drawer-container>
+  </div>
+</div>

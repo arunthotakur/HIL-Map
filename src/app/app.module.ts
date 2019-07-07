@@ -25,6 +25,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatListModule } from '@angular/material/list';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatDialogModule } from '@angular/material/dialog';
+import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatSlideToggleModule,
     MatListModule,
     MatRadioModule,
-    MatDialogModule
+    MatDialogModule,
+    AgmSnazzyInfoWindowModule,
+    MatSidenavModule
   ],
   providers: [DrugLocationsService, DrugsService, RetailersService],
   bootstrap: [AppComponent],

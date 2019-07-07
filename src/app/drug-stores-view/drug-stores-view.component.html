@@ -1,4 +1,12 @@
-<agm-map [latitude]="lat" [longitude]="lng" [fitBounds]="true">
+<agm-map [fitBounds]="true" [latitude]="40.7128" [longitude]="74.0060">
   <agm-marker [agmFitBounds]="true" *ngFor="let retailer of filteredRetailers" [latitude]="retailer.latitude"
-    [longitude]="retailer.longitude"></agm-marker>
+    [longitude]="retailer.longitude">
+    <agm-snazzy-info-window [padding]="'10px'" [maxWidth]="400" [closeWhenOthersOpen]="true">
+      <ng-template>
+        <p><b>{{retailer?.retailerName}}</b></p>
+        <p>{{retailer?.address}}</p>
+        <p>{{retailer?.zipcode}}</p>
+      </ng-template>
+    </agm-snazzy-info-window>
+  </agm-marker>
 </agm-map>

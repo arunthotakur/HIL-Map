@@ -31,3 +31,11 @@ export class Retailer {
   latitude: number;
   zipcode: number;
 }
+
+export class RetailerAndDrugPrice {
+  retailerId: number;
+  retailerAddress: string;
+  retailerZipcode: number;
+  drugId: number;
+  price: number;
+}

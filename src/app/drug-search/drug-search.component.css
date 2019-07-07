@@ -41,7 +41,6 @@
   }
 }
 
-
 .search-card{
   border-radius: 10px;
   width: 25%;
@@ -52,4 +51,14 @@
   position: absolute;
   margin-top: 5px;
   margin-left: 5px; /* optional */
+}
+
+.filter-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.example-radio-button {
+  margin: 5px;
 }
