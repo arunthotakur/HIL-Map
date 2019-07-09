@@ -2,7 +2,7 @@ import { GenericOptionsDialog } from './generic-options-dialogue.component';
 import { RetailersService } from './../service/retailers.service';
 import { Observable } from 'rxjs';
 import { DrugsService } from "../service/drugs.service";
-import { DrugLocation, Retailer, RetailerAndDrugPrice } from "../common/models";
+import { DrugLocation, Retailer, RetailerAndDrugPrice, DrugForm } from "../common/models";
 import { DrugLocationsService } from "../service/drug-locations.service";
 import { Component, OnInit, Inject } from "@angular/core";
 import { Drug } from "../common/models";
@@ -37,6 +37,7 @@ export class DrugSearchComponent implements OnInit {
   formsList: any = [];
   quantitiesList: any = [];
   retailerAndDrugPriceDetailsList: RetailerAndDrugPrice[] = [];
+  selectedForm: DrugForm;
   constructor(
     private drugLocationsService: DrugLocationsService,
     private drugsService: DrugsService,
@@ -44,7 +45,41 @@ export class DrugSearchComponent implements OnInit {
   ) {
     this.selectedDrug = new Drug();
     this.selectedDrug.forms = [];
+    this.selectedForm = new DrugForm();
+  }
 
+  onFormChange(changedForm: any) {
+    console.log("on form change", changedForm);
+    for (let form of this.selectedDrug.forms) {
+      if (form.type == changedForm) {
+        this.selectedForm = form;
+        console.log("form changed", form);
+        break;
+      }
+    }
+    console.log("on form select", this.selectedForm);
+  }
+
+  onStrengthChange(changedStrength: any) {
+    console.log("on strength change", this.selectedForm);
+
+    for (let form of this.selectedDrug.forms) {
+      if (form.strength == changedStrength) {
+        this.selectedForm = form;
+        break;
+      }
+    }
+  }
+
+  onQuantityChange(changedQuantity: any) {
+    console.log("on quantity change", this.selectedForm);
+    for (let form of this.selectedDrug.forms) {
+      if (form.quantity == changedQuantity) {
+        this.selectedForm = form;
+        console.log("on select", this.selectedForm);
+        break;
+      }
+    }
   }
 
   openDialog(): void {
@@ -120,6 +155,15 @@ export class DrugSearchComponent implements OnInit {
     this.showGenericOptionSelection = true;
     this.selectedDrug = event.option.value;
     console.log("selected drug", this.selectedDrug);
+    for (let form of this.selectedDrug.forms) {
+      form.quantity = form.quantity + ' ' + form.unit;
+    }
+    console.log("forms", this.selectedDrug.forms);
+    for (let form of this.selectedDrug.forms) {
+      this.selectedForm = form;
+      break;
+    }
+
     this.getDrugLocations();
     this.strengthsList = [];
     this.formsList = [];
@@ -134,8 +178,8 @@ export class DrugSearchComponent implements OnInit {
       if (!(this.formsList.indexOf(form.type) > -1)) {
         this.formsList.push(form.type);
       }
-      if (!(this.quantitiesList.indexOf(form.quantity + ' ' + form.unit) > -1)) {
-        this.quantitiesList.push(form.quantity + ' ' + form.unit);
+      if (!(this.quantitiesList.indexOf(form.quantity) > -1)) {
+        this.quantitiesList.push(form.quantity);
       }
     }
   }
@@ -144,30 +188,25 @@ export class DrugSearchComponent implements OnInit {
   }
 
   getDrugLocations() {
-    this.selectedDrug.drugId;
-    this.filteredDrugLocations = this.allDrugLocations.filter(drugLocation => {
-      let drugInfo = drugLocation.drugs.filter(drugInfo => {
-        return drugInfo.drugId == this.selectedDrug.drugId;
-      });
-      if (drugInfo) {
-        return true;
-      } else {
-        return false;
+    this.filteredRetailers = [];
+    this.filteredDrugLocations = [];
+    for (let filterDrugLocation of this.allDrugLocations) {
+      for (let drug of filterDrugLocation.drugs) {
+        if (drug.drugId == this.selectedDrug.drugId) {
+          this.filteredDrugLocations.push(filterDrugLocation);
+        }
       }
-    });
-    console.log("dl", this.filteredDrugLocations);
-
-    this.filteredRetailers = this.allRetailers.filter((retailer: Retailer) => {
-      let drugLocation = this.filteredDrugLocations.filter((drugLocation: DrugLocation) => {
-        return drugLocation.retailerId == retailer.retailerId;
-      });
-      if (drugLocation) {
-        return true;
-      } else {
-        return false;
+    }
+    console.log("filtered drug locations", this.filteredDrugLocations);
+    for (let filteredLocation of this.filteredDrugLocations) {
+      for (let retailer of this.allRetailers) {
+        retailer.drugPrice = null;
+        if (retailer.retailerId == filteredLocation.retailerId) {
+          this.filteredRetailers.push(retailer);
+        }
       }
-    });
-    console.log("ret", this.filteredRetailers);
+    }
+    console.log("filtered retailers", this.filteredRetailers);
     if (this.zipcode) {
       this.filterByZipcode();
     }
@@ -183,58 +222,20 @@ export class DrugSearchComponent implements OnInit {
   filterByGenericOptions() {
     this.retailerAndDrugPriceDetailsList = [];
     this.showNoResultsFound = false;
-    let drugPrice = this.checkDrugExisits();
+    let drugPrice = this.selectedForm.price;
     console.log("drug price", drugPrice);
-    if (drugPrice != 0) {
-      this.filteredDrugLocations.map((drugLocation) => {
-        drugLocation.drugs.map(drug => {
-          if (drug.drugId == this.selectedDrug.drugId) {
-            this.filteredRetailers.map((retailer) => {
-              if (retailer.retailerId == drugLocation.retailerId) {
-                let retailerAndDrugPriceDetails = new RetailerAndDrugPrice();
-                retailerAndDrugPriceDetails.drugId = this.selectedDrug.drugId;
-                retailerAndDrugPriceDetails.price = drugPrice - ((drug.discount * drugPrice) / 100);
-                retailerAndDrugPriceDetails.retailerAddress = retailer.address;
-                retailerAndDrugPriceDetails.retailerId = retailer.retailerId;
-                retailerAndDrugPriceDetails.retailerZipcode = retailer.zipcode;
-                this.retailerAndDrugPriceDetailsList.push(retailerAndDrugPriceDetails);
-              }
-            });
+    for (let drugLocation of this.filteredDrugLocations) {
+      for (let drug of drugLocation.drugs) {
+        if (drug.drugId == this.selectedDrug.drugId) {
+          for (let filteredRetailer of this.filteredRetailers) {
+            if (drugLocation.retailerId == filteredRetailer.retailerId) {
+              filteredRetailer.drugPrice = drugPrice - ((drug.discount * drugPrice) / 100);
+              break;
+            }
           }
-        });
-      });
-    } else {
-      this.showNoResultsFound = true;
+        }
+      }
     }
-    console.log("the final list", this.retailerAndDrugPriceDetailsList);
-  }
-
-  checkDrugExisits() {
-    let drugExists = false;
-    let drugPrice = 0;
-    this.selectedDrug.forms.map(form => {
-      if (this.selectedDrugQuantity) {
-        drugExists = form.quantity == this.selectedDrugQuantity;
-        if (drugExists) {
-          drugPrice = form.price;
-        }
-      }
-
-      if (this.selectedDrugStrength) {
-        drugExists = form.strength == this.selectedDrugStrength;
-        if (drugExists) {
-          drugPrice = form.price;
-        }
-      }
-
-      if (this.selectedDrugType) {
-        drugExists = form.type = this.selectedDrugType;
-        if (drugExists) {
-          drugPrice = form.price;
-        }
-      }
-    });
-
-    return drugPrice;
+    console.log("the final list", this.filteredRetailers);
   }
 }

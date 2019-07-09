@@ -13,5 +13,15 @@ export class DrugStoresViewComponent implements OnInit {
   lng: number = 7.809007;
   constructor() { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+
+  }
+
+  getLabel(retailer: Retailer) {
+    if (retailer.drugPrice) {
+      return '$' + retailer.drugPrice.toString();
+    } else {
+      return ' ';
+    }
+  }
 }

@@ -30,12 +30,16 @@ export class Retailer {
   longitude: number;
   latitude: number;
   zipcode: number;
+  drugPrice: number;
 }
 
 export class RetailerAndDrugPrice {
   retailerId: number;
   retailerAddress: string;
   retailerZipcode: number;
+  retailerName: string;
   drugId: number;
   price: number;
+  latitude: number;
+  longitude: number;
 }
