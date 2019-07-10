@@ -22,7 +22,7 @@ export class DrugSearchComponent implements OnInit {
   selectedDrug: Drug;
   drugCtrl = new FormControl();
   filteredDrugs: Drug[];
-  zipcode: any = 19021;
+  zipcode: any = 10001;
   showMap: boolean;
   showGenericOptions: boolean = false;
   showGenericOptionSelection: boolean;
@@ -107,19 +107,12 @@ export class DrugSearchComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.addBackground();
     this.getDrugs();
     this.getAllDrugLocations();
     this.getAllRetailers();
   }
 
-  addBackground() {
-    // document.getElementsByTagName("body")[0].style.background = 'url("/assets/img/map3.jpg")';
-    // document.getElementsByTagName("body")[0].style.display = 'block';
-    // document.getElementsByTagName("body")[0].style.backgroundRepeat = 'no-repeat';
-    // document.getElementsByTagName("body")[0].style.backgroundSize = 'cover';
-    // document.getElementsByTagName("body")[0].style.position = 'center';
-  }
+
 
   ngOnDestroy() {
     document.getElementsByTagName("body")[0].style.background = null;
